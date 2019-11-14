@@ -10,7 +10,7 @@ export default class WorldMapBackground extends Component {
         return (
             <div id='world-map-div'>
                 <GoogleMapReact
-                    bootstrapURLKeys={{ key: 'AIzaSyDR4XtwJA3q41tlhnjkmY_zq0wBn8lXomY' }}
+                    bootstrapURLKeys={{ key: '' }}
                     center={this.center || this.props.location}
                     zoom={this.props.zoom}
                     options={this.props.options}
