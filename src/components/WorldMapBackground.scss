@@ -1,0 +1,8 @@
+#world-map-div {
+    height: 100vh;
+    pointer-events: none;
+    
+    div.gm-style > div:nth-of-type(n+2) {
+        display: none;
+    }
+}

@@ -1,0 +1,89 @@
+#top-nav-div {
+    margin-left: 10px;
+    font-family: 'Colus', Fallback, sans-serif;
+    color: #fff;
+    width: 100%;
+    margin-top: -20px;
+    //overflow-x: scroll;
+
+    table {
+        width: 100%;
+
+        tr {
+            overflow-x: scroll;
+
+            td {
+                min-width: 125px;
+                overflow: visible;
+
+                .nav-select-cell {
+                    overflow: visible;
+                }
+            }
+
+            /* Would be nice to get this to work, but currently, because the
+            * background-color is transparent, when the locations scroll underneath the title
+            * they can still be seen.
+            */
+            // th {
+            //     position: -webkit-sticky;
+            //     position: sticky;
+            //     left: 0;
+            //     z-index: 2;
+            // }
+
+            th {
+                text-align: left;
+            }
+
+            h1 {
+                font-size: 40px;
+            }
+        }
+    }
+
+    .location-selectors {
+        display: table-row;
+    }
+
+    .nav-select {
+        .nav-select__indicators {
+            display: none;
+        }
+
+        .nav-select__control--is-focused {
+            background-color: transparent;
+            border: none;
+            box-shadow: none;
+        }
+
+        .nav-select__control {
+            background-color: transparent;
+            border: none;
+        }
+
+        .nav-select__placeholder {
+            color: #fff;
+            font-size: 22px;
+        }
+
+        .nav-select__menu {
+            background-color: transparent;
+            box-shadow: none;
+        }
+
+        .nav-select__menu-notice--no-options {
+            display: none;
+        }
+
+        .nav-select__option {
+            background-color: transparent;
+            border: none;
+        }
+
+        .nav-select__option--is-focused {
+            background-color: transparent;
+            border: none;
+        }
+    }
+}

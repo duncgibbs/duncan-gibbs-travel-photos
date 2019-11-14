@@ -1,0 +1,30 @@
+{
+    "all": {
+        "coordinates": {
+            "lat": 35.47,
+            "lng": -97.53
+        },
+        "zoom": 8
+    },
+    "japan": {
+        "coordinates": {
+            "lat": 35.68,
+            "lng": 139.77
+        },
+        "zoom": 6
+    },
+    "iceland": {
+        "coordinates": {
+            "lat": 64.77,
+            "lng": -18.38
+        },
+        "zoom": 7
+    },
+    "italy": {
+        "coordinates": {
+            "lat": 41.95,
+            "lng": 13.04
+        },
+        "zoom": 7
+    }
+}
